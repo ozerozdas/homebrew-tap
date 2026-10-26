@@ -1,9 +1,9 @@
 cask "sprigo" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.10.0"
-  sha256 arm:   "36e8afd1af4d414f13d2d17e31cf508b005ffe18056b2751a29ad15e9aee26e2",
-         intel: "3c7db226c1eb4e0b0e33a26e84f411981f64cf3c3222c67a5e390c9e13278014"
+  version "1.10.1"
+  sha256 arm:   "4744a80f51a4a46a818756b702c5b82798e5338cfe99dc6585ab14825eaa5c4d",
+         intel: "77685ad800f8b1bb02f304b979e762bc84c38b82d2adb4f1b14c709459ef4f55"
 
   url "https://github.com/ozerozdas/sprigo/releases/download/v#{version}/Sprigo_#{version}_#{arch}.dmg"
   name "Sprigo"
