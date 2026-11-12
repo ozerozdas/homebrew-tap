@@ -1,7 +1,10 @@
 # homebrew-tap
 
+Homebrew tap for [Sprigo](https://github.com/ozerozdas/sprigo) and [Bastion](https://github.com/ozerozdas/bastion).
+
 ```bash
 brew install --cask ozerozdas/tap/sprigo
+brew install --cask ozerozdas/tap/bastion
 ```
 
-`Casks/sprigo.rb` is bumped automatically when a [Sprigo](https://github.com/ozerozdas/sprigo) release is published.
+Casks in `Casks/` are bumped automatically when a release of the matching project is published.
